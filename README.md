@@ -3,6 +3,14 @@
 # Otimização de hiperparâmetros de NN para classificação de tumor mamário
 🩷🎗️ Rede Neural Profunda para classificação de tumor mamário a partir de dados extraídos de mamografia. Projeto final da disciplina _Redes Neurais e Algoritmos Genéticos_, ministrada pelo Prof. Dr. Daniel Cassar, do 3º semestre do BSc. em Ciência e Tecnologia da Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais.
 
+## Introdução
+
+O câncer de mama é uma condição neoplástica caracterizada pela proliferação desordenada de células mamárias anormais. De acordo com a Organização Mundial da Saúde, mais de 2.3 milhões de mulheres foram diagnosticadas com câncer de mama em 2022, o que o torna o tipo de câncer mais prevalente na população feminina. Além disso, em 95% dos países, o câncer de mama é a primeira ou a segunda principal causa de morte por câncer em mulheres. [1, 2]
+
+Nesse contexto, a detecção preventiva do tumor pode reduzir os gastos com sistema de saúde público, além da quantidade de mortes associadas a essa doença. Para isso, diversos exames para investigação preventiva do câncer de mama – como mamografia, imageamento por ressonância magnética ou por tomografia computadorizada, por exemplo – são utilizados para mapeamento dos casos. No entanto, os métodos tradicionais de detecção do câncer de mama enfrentam desafios, como a complexidade das imagens mamográficas e a possibilidade de resultados falso-negativos na identificação do tipo de tumor, devido às dificuldades em identifica-los nos estágios iniciais da doença.
+
+Recentemente, modelos de aprendizado profundo têm sido explorados para a detecção do câncer de mama. Esses modelos têm a capacidade de aprender características complexas e hierárquicas, aumentando a sensibilidade e a especificidade na detecção, o que contribui para um diagnóstico mais precoce e preciso. Na literatura, muitos estudos têm adotado redes neurais para a classificação do câncer de mama, seja para identificar subtipos ou para diferenciar casos benignos de malignos. 
+
 ## 🎯 Objetivo
 Otimizar os hiperparâmetros de uma rede neural do tipo MLP para resolver um problema de interesse científico.
 ### Hiperparâmetros otimizados
