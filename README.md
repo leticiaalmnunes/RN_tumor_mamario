@@ -12,7 +12,8 @@ Nesse contexto, a detecção preventiva do tumor pode reduzir os gastos com sist
 Recentemente, modelos de aprendizado profundo têm sido explorados para a detecção do câncer de mama. Esses modelos têm a capacidade de aprender características complexas e hierárquicas, aumentando a sensibilidade e a especificidade na detecção, o que contribui para um diagnóstico mais precoce e preciso. Na literatura, muitos estudos têm adotado redes neurais para a classificação do câncer de mama, seja para identificar subtipos ou para diferenciar casos benignos de malignos. 
 
 ## 🎯 Objetivo
-Otimizar os hiperparâmetros de uma rede neural do tipo MLP para resolver um problema de interesse científico.
+Desenvolver e avaliar **redes neurais** otimizadas, especificamente MLP (Perceptron Multicamadas), utilizando técnicas de aprendizado profundo para **classificar** tumores de mama como benignos ou malignos, com base em dados extraídos de imagens de mamografias. Para isso, serão exploradas técnicas para evitar o sobreajuste do modelo, bem como a aplicação do _Optuna_ para **otimização dos hiperparâmetros**.
+
 ### Hiperparâmetros otimizados
 `OTIMIZADOR`: Otimizadores. Opções: ['SGD', 'Adam'] <br>
 `TAXA_APRENDIZADO`: Taxa de aprendizado da rede. Opções: [10<sup>-1</sup>, 10<sup>-2</sup>, 10<sup>-3</sup>, 10<sup>-4</sup>, 10<sup>-5</sup>] <br>
@@ -23,12 +24,12 @@ Otimizar os hiperparâmetros de uma rede neural do tipo MLP para resolver um pro
 
 ## 🗂️ Arquivos
 - Tarrasque.ipynb - _Jupyter Notebook_ com o código da rede neural e a otimização de hiperparâmetros.
-- Estudo optuna tumor.db - Arquivo do estudo realizado pelo _Optuna_ durante a otimização de hiperparâmetros.
+- tumor.db - Arquivo do estudo realizado pelo _Optuna_ durante a otimização de hiperparâmetros.
 - cancer_mama.csv - Dataset sobre tumores mamários extraído da plataforma _Kaggle_.
 
 ## 🤝 Contribuição de cada colaborador
 [<img src="https://avatars.githubusercontent.com/u/172425156?v=4" width=80>](https://github.com/leticiaalmnunes)
-**Letícia Almeida Nunes** - Pesquisa; Implementação (idealização, auxílio e revisão); Documentação (escrita).
+**Letícia Almeida Nunes** - Pesquisa; Implementação (idealização, auxílio e revisão); Documentação.
 
 [<img src="https://avatars.githubusercontent.com/u/172424921?v=4" width=80>](https://github.com/pedrocoelhogf)
-**Pedro Coelho Gimenes de Freitas** - Pesquisa; Implementação (idealização, escrita do código); Documentação (revisão).
+**Pedro Coelho Gimenes de Freitas** - Pesquisa; Implementação (idealização, escrita do código); Documentação.
